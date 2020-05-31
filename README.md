@@ -52,6 +52,8 @@ In order to create a Minecraft Launcher Profile for a ClientAPI based mod, you n
 * Add your client mod's dependency. This follows the same format as normal dependencies. If your
   client mod is not on a maven repository then the URL should not be defined, and the jar file
   should be installed into the ``libraries`` directory of minecraft.
+  
+* If you get stuck see [here](BasicLauncherProfile.json) for a basic launcher profile.
 
 ## Contributing to ClientAPI
 This section is incomplete.
