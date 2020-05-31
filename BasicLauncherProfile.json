@@ -1,0 +1,105 @@
+{
+    "id": "YOUR_UNIQUE_ID_HERE",
+    "type": "release",
+    "inheritsFrom": "1.12.2",
+    "jar": "1.12.2",
+    "time": "2019-12-31T23:18:09Z",
+    "releaseTime": "2019-12-31T23:18:09Z",
+    "downloads": {},
+    "minimumLauncherVersion": 0,
+    "mainClass": "net.minecraft.launchwrapper.Launch",
+    "minecraftArguments": "--username ${auth_player_name} --version ${version_name} --gameDir ${game_directory} --assetsDir ${assets_root} --assetIndex ${assets_index_name} --uuid ${auth_uuid} --accessToken ${auth_access_token} --userType ${user_type} --tweakClass clientapi.load.ClientTweaker",
+    "libraries": [
+      {
+        "name": "com.github.ImpactDevelopment:SimpleTweaker:1.2",
+        "downloads": {
+          "artifact": {
+            "path": "com/github/ImpactDevelopment/SimpleTweaker/1.2/SimpleTweaker-1.2.jar",
+            "sha1": "d1d3856e7d9ba0c43f6d6a1d488cdd35e5098127",
+            "size": 9938,
+            "url": "https://impactdevelopment.github.io/maven/com/github/ImpactDevelopment/SimpleTweaker/1.2/SimpleTweaker-1.2.jar"
+          }
+        }
+      },
+      {
+        "name": "com.github.ZeroMemes:Alpine:1.8",
+        "downloads": {
+          "artifact": {
+            "path": "com/github/ZeroMemes/Alpine/1.8/Alpine-1.8.jar",
+            "sha1": "dc6480b5df4f275d7f07a1c86079b653606d4547",
+            "size": 11163,
+            "url": "https://impactdevelopment.github.io/maven/com/github/ZeroMemes/Alpine/1.8/Alpine-1.8.jar"
+          }
+        }
+      },
+      {
+        "name": "net.impactclient:feather:1.0-2.9",
+        "downloads": {
+          "artifact": {
+            "path": "net/impactclient/feather/1.0-2.9/feather-1.0-2.9.jar",
+            "sha1": "c55bd3bc55822bf38d3ef1a7ddf747d780ca38df",
+            "size": 28661,
+            "url": "https://impactdevelopment.github.io/maven/net/impactclient/feather/1.0-2.9/feather-1.0-2.9.jar"
+          }
+        }
+      },
+      {
+        "name": "net.jodah:typetools:0.5.0",
+        "downloads": {
+          "artifact": {
+            "path": "net/jodah/typetools/0.5.0/typetools-0.5.0.jar",
+            "sha1": "f61380c805c48c98305157e2543ca0bfc91583fe",
+            "size": 11800,
+            "url": "https://repo.maven.apache.org/maven2/net/jodah/typetools/0.5.0/typetools-0.5.0.jar"
+          }
+        }
+      },
+      {
+        "name": "org.spongepowered:mixin:0.7.11-SNAPSHOT",
+        "downloads": {
+          "artifact": {
+            "path": "org/spongepowered/mixin/0.7.11-SNAPSHOT/mixin-0.7.11-SNAPSHOT.jar",
+            "sha1": "7a670207bdb97db418118ad1e9bb42424ff3776d",
+            "size": 1017668,
+            "url": "https://impactdevelopment.github.io/maven/org/spongepowered/mixin/0.7.11-SNAPSHOT/mixin-0.7.11-SNAPSHOT.jar"
+          }
+        }
+      },
+      {
+        "name": "net.minecraft:launchwrapper:1.12",
+        "downloads": {
+          "artifact": {
+            "path": "net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar",
+            "sha1": "111e7bea9c968cdb3d06ef4632bf7ff0824d0f36",
+            "size": 32999,
+            "url": "https://libraries.minecraft.net/net/minecraft/launchwrapper/1.12/launchwrapper-1.12.jar"
+          }
+        }
+      },
+      {
+        "name": "org.ow2.asm:asm-all:5.2",
+        "downloads": {
+          "artifact": {
+            "path": "org/ow2/asm/asm-all/5.2/asm-all-5.2.jar",
+            "sha1": "2ea49e08b876bbd33e0a7ce75c8f371d29e1f10a",
+            "size": 247787,
+            "url": "https://repo1.maven.org/maven2/org/ow2/asm/asm-all/5.2/asm-all-5.2.jar"
+          }
+        }
+      },
+      {
+        "name": "com.github.ImpactDevelopment:ClientAPI:3.1.0",
+        "downloads": {
+          "artifact": {
+            "path": "com/github/ImpactDevelopment/ClientAPI/3.1.0/ClientAPI-3.1.0.jar",
+            "sha1": "c393f401f391d51ed86083f01ed9062231db168f",
+            "size": 306403,
+            "url": "https://github.com/ImpactDevelopment/maven/blob/master/com/github/ImpactDevelopment/ClientAPI/3.1.0/ClientAPI-3.1.0.jar."
+          }
+        }
+      },
+      {
+        "name": "YOUR_CLIENT_MOD_DEPENDENCY"
+      }
+    ]
+}
